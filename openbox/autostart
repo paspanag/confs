@@ -1,0 +1,3 @@
+compton -f -C -D 5 --backend glx -b
+redshift -l 51:-114 &
+#tint2 &
