@@ -34,4 +34,18 @@
 
 #adduser peter kvm
 
-apt install genisoimage
+#apt install genisoimage
+
+# crosstools for arm
+#dpkg --add-architecture armhf
+#apt-get update
+
+#apt-get install crossbuild-essential-armhf
+
+# bare metal arm compiler
+#apt install gcc-arm-none-eabi
+
+#apt install qemu-arm-static debootstrap device-tree-compiler gvncviewer
+
+# android
+#apt install zenity lib33stdc++6 default-jdk
